@@ -35,6 +35,7 @@
   "autocomplete-plus":
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
   core:
+    allowPendingPaneItems: false
     audioBeep: false
     customFileTypes:
       "source.ruby.rails": [
@@ -42,6 +43,9 @@
       ]
     disabledPackages: [
       "spell-check"
+    ]
+    packagesWithKeymapsDisabled: [
+      "cheatsheet"
     ]
     projectHome: "/Users/swrathal/code"
     telemetryConsent: "limited"
